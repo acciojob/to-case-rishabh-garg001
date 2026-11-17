@@ -3,7 +3,7 @@ function toCase(text) {
 	let lower = text.toLowerCase()
 
 let upper = text.toUpperCase()
-if(text.length > 1)
+if(text.length >= 1)
 return lower + "-" + upper
 else
   return "-"
